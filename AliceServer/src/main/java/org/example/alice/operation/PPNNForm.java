@@ -147,7 +147,7 @@ public class PPNNForm extends JFrame
     public JLabel servarAddressLabel = new JLabel("Server Adderss: ");
     public JTextField serverAddressTxtf = new JTextField("127.0.0.1", 10);
     public JLabel serverPortNumLabel = new JLabel("Server Port Number: ");
-    public JTextField serverPortNumTxtf = new JTextField("9011", 10);
+    public JTextField serverPortNumTxtf = new JTextField("9012", 10);
     public JButton connectToServerBtn = new JButton("Connect to Server");
 
 

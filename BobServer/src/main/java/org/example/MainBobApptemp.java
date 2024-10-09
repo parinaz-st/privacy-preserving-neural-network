@@ -1,7 +1,4 @@
 package org.example;
-import java.awt.FlowLayout;
-import java.math.*;
-import java.util.*;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -20,7 +17,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-public class MainBobApp extends JFrame
+public class MainBobApptemp extends JFrame
 {
 //    public static void main(String[] args)throws Exception
 //    {
@@ -82,7 +79,7 @@ public class MainBobApp extends JFrame
     public static BigInteger nSquare;
     public static BigInteger scalarProductRes;
 
-    public MainBobApp()
+    public MainBobApptemp()
     {
         super("Bob Form");
 
@@ -185,7 +182,7 @@ public class MainBobApp extends JFrame
     }
     public static void main(String[] args)throws Exception
     {
-        MainBobApp BobForm = new MainBobApp();
+        MainBobApptemp BobForm = new MainBobApptemp();
         BobForm.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
         BobForm.setSize( 300,200 );
         BobForm.setVisible( true );
