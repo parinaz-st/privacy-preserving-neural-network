@@ -14,3 +14,7 @@ From the server's perspective, the neural network operates on the encrypted inpu
 The goal is to perform these computations in a privacy-preserving manner. This approach is based on two perspectives:
 *__Perspective 1__: The input data and weights of the neural network are encrypted.
 
+In this level, the client sends encrypted data to the server. The server processes the data without decrypting it.
+The data and the weights of the neural network are kept confidential throughout the computation. 
+The first security level guarantees that the neural network processes the data in an encrypted format, without revealing sensitive information
+
