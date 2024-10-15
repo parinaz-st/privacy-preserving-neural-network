@@ -40,7 +40,8 @@ Activation function: Threshold, which Alice is aware of.
 
 
 **Private Scalar Product Protocol (PSPP)**
-![image](https://github.com/user-attachments/assets/dfc12d88-2ed2-4767-847b-935e490a4ae1)
+
+![image](https://github.com/user-attachments/assets/799de8bc-069b-4544-b077-ee65d7796073)
 
 
 **Impelimentation Notes**
