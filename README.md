@@ -33,7 +33,9 @@ It is a form of encryption in which an algebraic operation can be performed on t
 Activation function: Threshold, which Alice is aware of.
 (To implement a scenario where the activation function is also hidden from the client, the millionaires' problem approach can be used—this has not been implemented in the current project.)
 
+
 **PPNN-Level 1**
+
 ![image](https://github.com/user-attachments/assets/130c8ad0-732e-4079-b377-b8e0c64e6b35)
 
 
