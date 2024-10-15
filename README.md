@@ -28,6 +28,10 @@ For this implementation, a linearly separable dataset was first generated and th
 The type of encryption used in this protocol is the Paillier Cryptosystem, which has properties of homomorphism and randomness. 
 It is a form of encryption in which an algebraic operation can be performed on the ciphertext to yield the result of another algebraic operation on the original plaintext.
 
+**ActivationFunction**
+Activation function: Threshold, which Alice is aware of.
+(To implement a scenario where the activation function is also hidden from the client, the millionaires' problem approach can be used—this has not been implemented in the current project.)
+
   **Step 1: Key Pair Generation By ALice**
 
   ![image](https://github.com/user-attachments/assets/9bb3a28d-1614-4b82-a837-b2da0adeb773)
