@@ -35,8 +35,10 @@ Activation function: Threshold, which Alice is aware of.
 **PPNN-Level 1**
 ![image](https://github.com/user-attachments/assets/75cedaf2-dd59-4d89-bcf3-4c9c8d91044b)
 
+
 **Private Scalar Product Protocol (PSPP)**
 ![image](https://github.com/user-attachments/assets/dfc12d88-2ed2-4767-847b-935e490a4ae1)
+
 
 **Impelimentation Notes**
 
