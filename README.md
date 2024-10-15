@@ -23,7 +23,10 @@ For this implementation, a linearly separable dataset was first generated and th
 ![image](https://github.com/user-attachments/assets/7e2adf58-b0d6-4689-993f-d460fbca82a9)
 
  
+**Cryprosystem**
 
+The type of encryption used in this protocol is the Paillier Cryptosystem, which has properties of homomorphism and randomness. 
+It is a form of encryption in which an algebraic operation can be performed on the ciphertext to yield the result of another algebraic operation on the original plaintext.
 
   **Step 1: Key Pair Generation By ALice**
 
