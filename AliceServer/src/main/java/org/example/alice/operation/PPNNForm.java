@@ -697,7 +697,7 @@ public class PPNNForm extends JFrame
         String[] ar = line.split(",");
         plainTextPart1 = Double.parseDouble(ar[0]);
         plainTextPart2 = Double.parseDouble(ar[1]);
-// converting double to integer
+    // converting double to integer
         plainTextPart1Int = (int) (plainTextPart1 * percent);
         plainTextPart2Int = (int) (plainTextPart2 * percent);
         String s1 = Integer.toString(plainTextPart1Int);

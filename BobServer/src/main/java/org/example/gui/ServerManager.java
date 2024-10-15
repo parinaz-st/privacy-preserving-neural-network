@@ -1,6 +1,8 @@
 package org.example.gui;
 
 
+import org.example.MainBobApp;
+
 import javax.swing.*;
 import java.net.ServerSocket;
 import java.net.Socket;

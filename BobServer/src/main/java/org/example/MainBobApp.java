@@ -1,4 +1,7 @@
-package org.example.gui;
+package org.example;
+
+import org.example.gui.ButtonActionListener;
+import org.example.gui.ServerManager;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;
