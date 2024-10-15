@@ -20,7 +20,8 @@ The goal is to perform these computations in a privacy-preserving manner.
 
 The protocol implemented is for a single-layer perceptron neural network, which only has the capability to classify linearly separable data. 
 For this implementation, a linearly separable dataset was first generated and then trained using the neural network.
-![image](https://github.com/user-attachments/assets/7e2adf58-b0d6-4689-993f-d460fbca82a9)
+![image](https://github.com/user-attachments/assets/bc68e654-542b-499c-b39a-f17e774425dc)
+
 
  
 **Cryprosystem**
