@@ -34,7 +34,7 @@ Activation function: Threshold, which Alice is aware of.
 (To implement a scenario where the activation function is also hidden from the client, the millionaires' problem approach can be used—this has not been implemented in the current project.)
 
 **PPNN-Level 1**
-![image](https://github.com/user-attachments/assets/75cedaf2-dd59-4d89-bcf3-4c9c8d91044b)
+![image](https://github.com/user-attachments/assets/130c8ad0-732e-4079-b377-b8e0c64e6b35)
 
 
 **Private Scalar Product Protocol (PSPP)**
