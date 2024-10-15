@@ -22,5 +22,13 @@ The goal is to perform these computations in a privacy-preserving manner. This a
   The data and the weights of the neural network are kept confidential throughout the computation. 
   The first security level guarantees that the neural network processes the data in an encrypted format, without revealing sensitive information
 
+
+
+  **Step 1: Key Pair Generation By ALice**
+
+  ![image](https://github.com/user-attachments/assets/9bb3a28d-1614-4b82-a837-b2da0adeb773)
+
+
+
   
 
