@@ -60,12 +60,15 @@ Upon receiving Alice's encrypted data, Bob raises it to the power of his weights
 
 
   **Step 2: Run Bob Server**
-  ![image](https://github.com/user-attachments/assets/f215afc6-2bc3-4bc6-8248-dfc4a9192b2a)
+  
+  ![image](https://github.com/user-attachments/assets/86bef85a-e8bb-4288-8ac5-0e234c721423)
 
   **Step 3: Stabilishing Alice And Bob Connection**
+  
   ![image](https://github.com/user-attachments/assets/d96c302a-104b-44cc-bdb4-f8304c04908c)
   
   **Step 4: Load Input Data And Run PSPP(Private Scalar Product Protocol) And Classify Results**
+  
   ![image](https://github.com/user-attachments/assets/4cd978f5-f5b8-4118-8adf-d55eb175a5ba)
 
   
