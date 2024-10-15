@@ -32,6 +32,22 @@ It is a form of encryption in which an algebraic operation can be performed on t
 Activation function: Threshold, which Alice is aware of.
 (To implement a scenario where the activation function is also hidden from the client, the millionaires' problem approach can be used—this has not been implemented in the current project.)
 
+**PPNN-Level 1**
+![image](https://github.com/user-attachments/assets/75cedaf2-dd59-4d89-bcf3-4c9c8d91044b)
+
+**Private Scalar Product Protocol (PSPP)**
+![image](https://github.com/user-attachments/assets/dfc12d88-2ed2-4767-847b-935e490a4ae1)
+
+**Impelimentation Notes**
+
+Based on the level one security protocol in the article, Bob, the owner of the neural network, and Alice, the owner of the input data, act as the client. The network communication between Alice and Bob is established through a socket. Alice sends a connection request to Bob, and if Bob's server is up on the specified port, it assigns a connection to Alice's client, and the communication begins at that moment.
+
+As soon as Bob's server is up, it loads the trained neural network weights. Alice also loads her input from the file Plaintext.txt. At this stage, Alice initiates the internal product computation protocol with Bob by clicking the Run PSPP button. In this step, Alice encrypts her data with her public key and sends it to Bob (thus, no one except Alice, who has the corresponding private key, can decrypt her data!).
+
+Upon receiving Alice's encrypted data, Bob raises it to the power of his weights, thereby calculating their product and sending the result back to Alice. Alice decrypts the value received from Bob and, by clicking the classifyInputDataIn2Classes button, provides the obtained number to the activation function, compares it with the actual class of the data, and calculates the error rate.
+
+
+
   **Step 1: Key Pair Generation By ALice**
 
   ![image](https://github.com/user-attachments/assets/9bb3a28d-1614-4b82-a837-b2da0adeb773)
