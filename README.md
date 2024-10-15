@@ -1,4 +1,4 @@
-**Privacy-Preserving Neural Network**
+**Privacy-Preserving Neural Network - Course Project Jul.2016**
 
 
 
