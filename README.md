@@ -14,20 +14,32 @@ Bob manages the neural network (NN), while Alice can send her encrypted data to 
 
 
 From the server's perspective, the neural network operates on the encrypted input, which it cannot decrypt.
-The goal is to perform these computations in a privacy-preserving manner. This approach is based on this perspectives:
+The goal is to perform these computations in a privacy-preserving manner.
 
--__Perspective__: The input data and weights of the neural network are encrypted.
+**Input Data**
 
-  In this level, the client sends encrypted data to the server. The server processes the data without decrypting it.
-  The data and the weights of the neural network are kept confidential throughout the computation. 
-  The first security level guarantees that the neural network processes the data in an encrypted format, without revealing sensitive information
+The protocol implemented is for a single-layer perceptron neural network, which only has the capability to classify linearly separable data. 
+For this implementation, a linearly separable dataset was first generated and then trained using the neural network.
+![image](https://github.com/user-attachments/assets/7e2adf58-b0d6-4689-993f-d460fbca82a9)
 
+ 
 
 
   **Step 1: Key Pair Generation By ALice**
 
   ![image](https://github.com/user-attachments/assets/9bb3a28d-1614-4b82-a837-b2da0adeb773)
 
+
+  **Step 2: Run Bob Server**
+  ![image](https://github.com/user-attachments/assets/f215afc6-2bc3-4bc6-8248-dfc4a9192b2a)
+
+  **Step 3: Stabilishing Alice And Bob Connection**
+  ![image](https://github.com/user-attachments/assets/d96c302a-104b-44cc-bdb4-f8304c04908c)
+  
+  **Step 4: Load Input Data And Run PSPP(Private Scalar Product Protocol) And Classify Results**
+  ![image](https://github.com/user-attachments/assets/4cd978f5-f5b8-4118-8adf-d55eb175a5ba)
+
+  
 
 
   
